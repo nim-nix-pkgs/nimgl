@@ -11,6 +11,7 @@
   inputs.src-nimgl-1_1_10.ref   = "refs/tags/1.1.10";
   inputs.src-nimgl-1_1_10.owner = "nimgl";
   inputs.src-nimgl-1_1_10.repo  = "nimgl";
+  inputs.src-nimgl-1_1_10.dir   = "";
   inputs.src-nimgl-1_1_10.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
