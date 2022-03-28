@@ -11,7 +11,6 @@
   inputs.src-nimgl-master.ref   = "refs/heads/master";
   inputs.src-nimgl-master.owner = "nimgl";
   inputs.src-nimgl-master.repo  = "nimgl";
-  inputs.src-nimgl-master.dir   = "";
   inputs.src-nimgl-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
